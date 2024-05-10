@@ -1,0 +1,56 @@
+*{
+    align-self: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 500;
+    font: large;
+}
+body{
+    background-color: bisque;
+    background-image: url(https://greenhealthycooking.com/wp-content/uploads/2017/09/How-To-Meal-Prep-Ingredients-1024x1536.jpg);
+
+}
+#searchBtn{
+    color: yellowgreen;
+    background-color: red;
+}
+#pageHeading{
+    color: brown;
+}
+#ingredients{
+    width: auto;
+    margin-right: 40px;
+    float: left;
+    color: #aad;
+    background-color: #552;
+}
+#instruction{
+    background-color: #aad;
+    color: #552;
+    vertical-align: top;
+    width:auto;
+    float: left;
+}
+
+.display:hover{
+    background-color:white;
+}
+.display{
+    margin: 10px;
+    border: 1px solid #e00;
+    background-color: #5f0;
+    color: brown;
+    width: 275px;
+    height: 190px;
+    float: inline-start;
+}
+.display p,img{
+    align-self: center;
+    color: brown;
+}
+img{
+    width:260px;
+    height: 130px;
+}
+h2{
+    color: green;
+}

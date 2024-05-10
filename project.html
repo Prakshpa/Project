@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Food Recipe</title>
+        <link rel="stylesheet" href="project.css">
+    </head>
+    <body >
+        <h1 id="pageHeading">Food Recipe</h1>
+        <div class="search">
+            <input type="search" name="" id="search" placeholder="Enter food item">
+            <button id="searchBtn">Search</button>
+        </div>
+        <p id="error" style="color: red; display: none;">Enter food name to search for it</p>
+        <p id="notFound" style="color: #ee1155; display: none;">The Entered food recipe is not found</p>
+        <p id="found" style="display: none;">Menu item</p>
+        <table id="guideForMeal">
+            <tr>
+                <td><table id="ingredients"></table></td>
+                <td id="instruction"> <div></div></td>
+            </tr>
+        </table>
+        <h2>Popular Meals</h2>
+        <div id="popularMeals" >
+            <button id="display1">
+                <div class="display">
+                    <p>Kentucky Fried Chicken</p>
+                    <img src="https://www.themealdb.com/images/media/meals/xqusqy1487348868.jpg" alt="KFC">
+                </div>
+            </button>
+            <button id="display2">
+                <div class="display">
+                    <p>Dal fry</p>
+                    <img src="https://www.themealdb.com/images/media/meals/wuxrtu1483564410.jpg" alt="Indian Dal">
+                </div>
+            </button>
+            <button id="display3">
+                <div class="display">
+                    <p>Mushroom & Chestnut Rotolo</p>
+                    <img src="https://www.themealdb.com/images/media/meals/ssyqwr1511451678.jpg" alt="Mushroom">
+                </div>
+            </button>
+            <button id="display4">
+                <div class="display">
+                    <p>Christmas Cake</p>
+                    <img src="https://www.themealdb.com/images/media/meals/ldnrm91576791881.jpg" alt="Christmas Cake">
+                </div>
+            </button>
+            <button id="display5">
+                <div class="display">
+                    <p>Creamy Tomato soup</p>
+                    <img src="https://www.themealdb.com/images/media/meals/stpuws1511191310.jpg" alt="Tomato soup">
+                </div>
+            </button>
+            <button id="display6">
+                <div class="display">
+                    <p>Vegetarian Chilli</p>
+                    <img src="https://www.themealdb.com/images/media/meals/wqurxy1511453156.jpg" alt="KFC">
+                </div>
+            </button>
+        </div>
+        <script src="project.js"></script>
+    </body>
+</html>
