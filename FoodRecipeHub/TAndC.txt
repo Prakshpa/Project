@@ -1,0 +1,8 @@
+*What user can do*
+1. Upload food recipes they have
+2. Update their profile and their recipes
+3. Delete the uploads they make
+4. Search for food recipes which are in website
+
+*What the admin can do to users*
+1. Delete user accounts and the recipes they upload 
